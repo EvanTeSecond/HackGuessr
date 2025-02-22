@@ -1,29 +1,10 @@
-# HackGuessr
-this is a javascript bookmarklet for worldguessr which is basically the free version of geoguessr. Bookmarklets are bookmarks except they execute javascript code instead of opening urls.
+# HackGuessr - A WorldGuessr Bookmarklet Tool
+HackGuessr is a JavaScript bookmarklet designed for WorldGuessr (a free alternative to GeoGuessr). It allows users to easily locate their position on the map in a WorldGuessr game by interacting with a pop-up map while providing helpful controls for zooming, panning, and viewing coordinates.
 
-~
-
-To create a bookmarklet:
-
-Go to a new tab
-right click on the bookmarks bar
-select "Show bookmarks bar" so that theres a checkmark next to it
-right click the bookmarks bar again
-click add page
-Name it whatever you want or just HackGuessr (optional)
-replace the url with the HackGuessr javascript code
-MAKE SURE THE BEGINNING OF THE URL STARTS WITH "javascript:" (you can verify by selecting the url with ctrl + a then clicking the left arrow key)
-Choose where you want to save the bookmark (optional)
-Click save
-Go to https://worldguessr.com/ and click the bookmark
-Enjoy!
-~
-
-        This tool helps you locate your position in a WorldGuessr game using a map.
-        Start by joining a WorldGuessr game and reloading the map.
-        If key binds are not working, click the popup map once and try again.
+# What is a Bookmarklet?
+A bookmarklet is a bookmark that contains JavaScript code rather than a URL. This allows users to run a script directly from their bookmarks bar, adding useful functionalities to websites like WorldGuessr.
         
-        Controls:
+# Controls:
         To reset the map, press "R" or click the "Reload" button.
         To hide the popup, press "X" or click the "❌" button.
         To unhide the popup, press "X" or right-click the "📌" button.
@@ -36,12 +17,31 @@ Enjoy!
         To reset the popup’s position, hide it and reload.
         To open or close the help screen, press "T."
 
+# How to Create and Use the HackGuessr Bookmarklet
 
-        Made by evan
+Create the Bookmarklet:
+1. Open a new tab in your browser.
+2. Right-click on the bookmarks bar and select "Show bookmarks bar".
+3. Right-click the bookmarks bar again and choose "Add page...".
+4. Name the bookmark (e.g., "HackGuessr") or leave it blank.
+5. In the URL field, paste the HackGuessr JavaScript code (ensure the URL starts with javascript:).
+Note: Verify the javascript: prefix is present by selecting the URL, pressing Ctrl + A, and using the left arrow key to check.
+6. Save the bookmark in your preferred folder.
+
+Using HackGuessr:
+1. Visit WorldGuessr.
+2. Click on the HackGuessr bookmarklet from your bookmarks bar.
+3. Join a game and reload the map.
+4. Enjoy the enhanced map features!
+
+# Use at School
+If JavaScript bookmarklets or the developer console are blocked on your network, you can use uBlobeBM (created by Blobby Boi) to bypass restrictions. Follow these steps:
+1. Follow all the instructions on https://blobby-boi.github.io/uBlobeBM/ to correctly install uBlobeBM, except replace "*##+js(blob.js)" with "*##+js(blob.js, set-constant, CSP_POLICY, null)"
+2. Then visit http://worldguessr.com/
+3. Click CTRL + SHIFT + ` or CTRL + SHIFT + ~
+4. Paste the HackGuessr script into the input box (ensure it starts with javascript:)
+5. Run it, and your good to go!
+
 ~
 
-if making a bookmarklet and running it doesn't work, enter the code in the console of CTRL+SHIFT+I
-
-~
-
-if you are a student and want to use this at school where javascript bookmarklets and inspecting are blocked, setup uBlobeBM (https://blobby-boi.github.io/uBlobeBM/) but replace *##+js(blob.js) with *##+js(blob.js, set-constant, CSP_POLICY, null) so that it works for more sites. now just run uBlobeBM on WorldGuessr, insert the HackGuessr javascript (pasting the code will remove the javascript: at the front of the code so add javascript: to the front of the code), and run it
+If the bookmarklet doesn't work, open the developer console with CTRL + SHIFT + I. Make sure you're under the Console tab. Once you are, type allow pasting and press Enter. Lastly, paste the HackGuessr script into the console and press Enter
