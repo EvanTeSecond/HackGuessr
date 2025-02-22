@@ -44,4 +44,4 @@ If JavaScript bookmarklets or the developer console are blocked on your network,
 
 ~
 
-If the bookmarklet doesn't work, open the developer console with CTRL + SHIFT + I. Make sure you're under the Console tab. Once you are, type allow pasting and press Enter. Lastly, paste the HackGuessr script into the console and press Enter
+If the bookmarklet doesn't work, open the developer console with CTRL + SHIFT + I. Make sure you're under the Console tab. Once you are, type "allow pasting" (If pasting is not allowed) and press Enter. Lastly, paste the HackGuessr script into the console and press Enter
