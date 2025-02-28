@@ -24,7 +24,7 @@ Create the Bookmarklet:
 2. Right-click on the bookmarks bar and select "Show bookmarks bar".
 3. Right-click the bookmarks bar again and choose "Add page...".
 4. Name the bookmark (e.g., "HackGuessr") or leave it blank.
-5. In the URL field, paste the HackGuessr JavaScript code (ensure the URL starts with javascript:).
+5. In the URL field, paste the HackGuessr JavaScript code (ensure the URL starts with "javascript:").
 Note: Verify the javascript: prefix is present by selecting the URL, pressing Ctrl + A, and using the left arrow key to check.
 6. Save the bookmark in your preferred folder.
 
@@ -32,7 +32,7 @@ Using HackGuessr:
 1. Visit WorldGuessr.
 2. Click on the HackGuessr bookmarklet from your bookmarks bar.
 3. Join a game and reload the map.
-4. Enjoy the enhanced map features!
+4. Enjoy HackGuessr!
 
 # Use at School
 If JavaScript bookmarklets or the developer console are blocked on your network, you can use uBlobeBM (created by Blobby Boi) to bypass restrictions. Follow these steps:
