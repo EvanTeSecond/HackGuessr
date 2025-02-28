@@ -33,6 +33,7 @@ Using HackGuessr:
 2. Click on the HackGuessr bookmarklet from your bookmarks bar.
 3. Join a game and reload the map.
 4. Enjoy HackGuessr!
+To stop HackGuessr, reload the tab.
 
 # Use at School
 If JavaScript bookmarklets or the developer console are blocked on your network, you can use uBlobeBM (created by Blobby Boi) to bypass restrictions. Follow these steps:
