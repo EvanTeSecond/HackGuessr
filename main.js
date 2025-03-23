@@ -1,5 +1,4 @@
-javascript:(function () {
-    console.log("Script loaded, initializing map...");
+(function () {
 
     loadLeaflet();
 
@@ -10,26 +9,20 @@ javascript:(function () {
     document.body.appendChild(loadingIndicator);
   
     document.addEventListener("keydown", function (e) {
-        console.log("Key pressed:", e.key, "| Code:", e.code);
     
         if (e.key.toLowerCase() === "r") {
-            console.log("R key detected. Reloading map...");
             reloadScript();
         } else if (e.key.toLowerCase() === "x") {
-            console.log("X key detected. Toggling popup visibility...");
             toggleVisibility();
         } else if (e.key.toLowerCase() === "t") {
-            console.log("T key detected. Toggling info screen...");
             toggleInfoScreen();
         } else if (e.key.toLowerCase() === "q") {
-            console.log("Q key detected. Zooming in...");
             if (!zoomInterval) {
                 zoomInterval = setInterval(function () {
                     map.zoomIn();
                 }, 10);
             }
         } else if (e.key.toLowerCase() === "e") {
-            console.log("E key detected. Zooming out...");
             if (!zoomInterval) {
                 zoomInterval = setInterval(function () {
                     map.zoomOut();
@@ -40,10 +33,8 @@ javascript:(function () {
     });
 
     document.addEventListener("keyup", function (e) {
-        console.log("Key released:", e.key, "| Code:", e.code);
     
         if (e.key.toLowerCase() === "q" || e.key.toLowerCase() === "e") {
-            console.log("Key released. Stopping zooming...");
             clearInterval(zoomInterval);
             zoomInterval = null;
         }
@@ -77,7 +68,6 @@ javascript:(function () {
 
     function loadLeaflet() {
         if (!window.L) {
-            console.log("Loading Leaflet.js...");
             let link = document.createElement("link");
             link.rel = "stylesheet";
             link.href = "https://unpkg.com/leaflet/dist/leaflet.css";
@@ -86,12 +76,10 @@ javascript:(function () {
             let script = document.createElement("script");
             script.src = "https://unpkg.com/leaflet/dist/leaflet.js";
             script.onload = function () {
-                console.log("Leaflet.js loaded.");
                 runScript();
             };
             document.body.appendChild(script);
         } else {
-            console.log("Leaflet.js already loaded.");
             runScript();
         }
     }
@@ -112,7 +100,6 @@ javascript:(function () {
     }
 
     function runScript() {
-        console.log("Initializing map...");
         createUI();
         let coordinates = extractLocationFromIframe();
 
@@ -136,7 +123,6 @@ javascript:(function () {
             .bindPopup(`Lat: ${coordinates.lat}<br>Lng: ${coordinates.long}`)
             .addTo(map);
 
-        console.log("Map initialized successfully with custom marker.");
     }
 
     function createUI() {
@@ -190,7 +176,6 @@ javascript:(function () {
             cursor: pointer;
         `;
         reloadButton.onclick = function () {
-            console.log("Button clicked. Reloading map...");
             reloadScript();
         };
         container.appendChild(reloadButton);
