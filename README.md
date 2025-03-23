@@ -1,6 +1,6 @@
 # HackGuessr - A WorldGuessr Bookmarklet Tool
 HackGuessr is a JavaScript bookmarklet designed for WorldGuessr (a free alternative to GeoGuessr). It allows users to easily locate their position on the map in a WorldGuessr game by interacting with a pop-up map while providing helpful controls for zooming, panning, and viewing coordinates.
-# YOU NEED TO BE LOGGED INTO WORLDGUESSR TO DO THIS
+# YOU NEED TO BE LOGGED IN AND ON THE HOME SCREEN OF WORLDGUESSR TO RUN THE CODE
 # What is a Bookmarklet?
 A bookmarklet is a bookmark that contains JavaScript code rather than a URL. This allows users to run a script directly from their bookmarks bar, adding useful functionalities to websites like WorldGuessr.
         
