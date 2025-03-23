@@ -38,7 +38,7 @@ To stop HackGuessr, reload the tab.
 # Use at School
 If JavaScript bookmarklets or the developer console are blocked on your network, you can use uBlobeBM (created by Blobby Boi) to bypass restrictions. Follow these steps:
 1. Follow all the instructions on https://blobby-boi.github.io/uBlobeBM/ to correctly install uBlobeBM, except replace "*##+js(blob.js)" with "*##+js(blob.js, set-constant, CSP_POLICY, null)"
-2. Then visit http://worldguessr.com/
+2. Then visit https://worldguessr.com/
 3. Click CTRL + SHIFT + ` or CTRL + SHIFT + ~
 4. Paste the HackGuessr script into the input box (ensure it starts with javascript:, if starting with javascript: won't work, try removing it.)
 5. Run it, and your good to go!
